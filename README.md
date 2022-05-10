@@ -83,6 +83,7 @@ We need your help: https://github.com/ant-design/ant-design-pro/issues/120
 ### Use bash
 
 ```bash
+export NODE_OPTIONS=--openssl-legacy-provider
 $ mkdir <your-project-name>
 $ cd <your-project-name>
 $ yarn create umi  # or npm create umi
